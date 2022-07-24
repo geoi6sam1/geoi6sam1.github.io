@@ -246,12 +246,8 @@
     font-size: 14px;
 }
 
-#works a {
-    text-decoration: none;
-}
-
+#works a,
 #post a,
-.sponsortips a,
 .friendlinks a {
     text-decoration: none;
 }
