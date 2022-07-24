@@ -66,20 +66,3 @@ body {
     margin: auto;
     background: rgba(255, 255, 255, .3);
 }
-
-.gt-header-textarea,
-.gt-header-preview,
-.gt-comment-content {
-    background-color: rgba(66, 66, 66, .6) !important;
-}
-
-.gt-header-textarea:hover,
-.gt-header-preview:hover,
-.gt-comment-content:hover {
-    background-color: rgba(66, 66, 66, .7) !important;
-}
-
-.gt-counts,
-.gt-comments-null {
-    color: #f5f5f5;
-}
