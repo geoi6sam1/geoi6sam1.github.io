@@ -11,9 +11,9 @@
     <link rel="icon" href="../assets/images/favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/pages.css">
-    <link rel="stylesheet" href="../assets/css/default.css">
 </head>
 
 <body class="mdui-theme-primary-deep-orange mdui-theme-accent-deep-orange">
@@ -128,7 +128,7 @@
                             </div>
                         </div>
                         
-                        <div id="container"></div>
+                        <div id="gitalk-container"></div>
                         
                     </div>
 
@@ -153,18 +153,19 @@
     <canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas>
     <script src="https://cdn.jsdelivr.net/npm/animejs@2.2.0/anime.min.js"></script>
     <script src="../assets/js/main.js"></script>
-    <script src="../assets/js/gitment.browser.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
     <script type="text/javascript">
-        var gitment = new Gitment({
-        id: '',
-        owner: 's757129',
-        repo: 's757129.github.io',
-        oauth: {
-            client_id: 'fd0ce403980144677b0c',
-            client_secret: 'f7a145c9b0ea440e6c0e01e8505ae7db6fec9317',
-        },
+        var gitalk = new Gitalk({
+          clientID: 'fd0ce403980144677b0c',
+          clientSecret: 'f7a145c9b0ea440e6c0e01e8505ae7db6fec9317',
+          repo: 's757129.github.io',
+          owner: 's757129',
+          admin: ['s757129'],
+          id: location.href,
+          distractionFreeMode: false
         })
-        gitment.render('container')
+        
+        gitalk.render('gitalk-container')
     </script>
 </body>
 
