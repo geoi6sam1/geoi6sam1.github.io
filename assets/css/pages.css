@@ -13,7 +13,7 @@
     border-radius: 50%;
     height: 150px;
     width: 150px;
-    margin: auto;
+    margin: 10px auto;
     cursor: pointer;
     background-size: cover;
     border: 3px solid #fff;
@@ -130,10 +130,6 @@
 @media only screen and (max-width: 1024px) {
     .rin-btn {
         margin-bottom: 10px;
-    }
-
-    .rin-logo {
-        margin: 10px auto;
     }
 
     .rin-left-title {
