@@ -1,65 +1,68 @@
-#rin-main {
-    width: 600px;
-    margin: auto;
-    text-align: center;
-    margin-top: calc(50vh - 200px);
+body {
+    margin: 0;
+    background: #2e2e2c;
 }
 
-@media (max-width: 600px) {
-    #rin-main {
-        width: 95%;
-    }
+* {
+    -webkit-tap-highlight-color: transparent;
 }
 
-#rin-headimg {
-    background-image: url('https://q1.qlogo.cn/g?b=qq&nk=2858727468&s=0');
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    margin: auto;
-    cursor: pointer;
+::selection {
+    color: #e0e0e0;
+    background: rgba(255, 105, 0, .35);
+}
+
+#rin-bg {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    position: fixed;
     background-size: cover;
-    border: 3px solid #fff;
     background-repeat: no-repeat;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .55);
-    -webkit-transition: 0.4s;
-    -webkit-transition: -webkit-transform 0.4s ease-out;
-    transition: transform 0.4s ease-out;
-    -moz-transition: -moz-transform 0.4s ease-out;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-color: #818181;
+    background-image: url('../../assets/images/background.png');
+    filter: blur(5px);
 }
 
-#rin-headimg:hover {
-    -webkit-transform: rotateZ(360deg);
-    transform: rotate(360deg) scale(1.2);
+#rin-bg:after {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    z-index: -1;
+    position: fixed;
+    background-color: rgba(66, 66, 66, .6);
 }
 
-.rin-name {
-    margin-top: 20px;
-    color: white;
-    font-size: 26px;
+#rin-footer {
+    bottom: 0;
+    margin: auto;
+    width: 100vw;
+    position: absolute;
+    padding: 10px 0 10px 0;
+}
+
+#rin-footer div {
+    font-size: 14px;
+    text-align: center;
+    color: rgba(255, 255, 255, .79);
+}
+
+#rin-footer div a {
+    color: #1890ff;
     font-weight: 700;
-    text-shadow: 0 0 8px rgba(255, 255, 255, .55);
+    transition: all .3s;
+    text-decoration: none;
 }
 
-.rin-description {
-    color: white;
-    text-shadow: 0 0 8px rgba(255, 255, 255, .55);
-    font-size: 20px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    letter-spacing: 8px;
-}
-
-.rin-slogan {
-    font-size: 13px;
-    color: white;
-    margin-top: 15px;
-    margin-bottom: 20px;
-}
-
-.rin-btn {
-    color: white;
-    margin-top: 10px;
-    border-radius: 5px;
-    text-shadow: 5px 10px 15px rgba(255, 255, 255, .55);
+.rin-tr {
+    width: 80%;
+    height: 2px;
+    margin: auto;
+    background: rgba(255, 255, 255, .3);
 }
