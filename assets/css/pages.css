@@ -50,7 +50,7 @@
 }
 
 .rin-card {
-    padding: 20px 25px;
+    padding: 20px 20px 10px;
     background-color: rgba(66, 66, 66, .3);
     border-radius: 10px;
 }
@@ -79,7 +79,7 @@
 }
 
 .rin-card-part {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     margin-top: 10px;
 }
 
@@ -253,32 +253,16 @@
     margin-left: 5px;
 }
 
-#last {
-    text-align: center;
-}
-
-#last .rin-card-title2 {
-    letter-spacing: 10px;
-    margin-bottom: 10px;
-}
-
-#last .rin-card-content {
-    font-size: 13px;
-    letter-spacing: 1em;
-    opacity: .5;
-}
-
 #footer {
     text-align: center;
 }
 
 #footer .rin-card-content {
-    font-size: 13px;
-    opacity: .5;
+    font-size: 14px;
 }
 
-#footer div a {
-    color: #448aff;
+#footer .rin-card-content a {
+    color: #1890ff;
     font-weight: 700;
     transition: all .3s;
     text-decoration: none;
@@ -295,4 +279,8 @@ td {
     background-color: rgba(66, 66, 66, .3);
     color: #F5F5F5;
     margin: 5px 10px;
+}
+
+.mdui-typo li ol, .mdui-typo li ul {
+    margin: 0;
 }
