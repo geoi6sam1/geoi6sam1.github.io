@@ -9,7 +9,7 @@ body {
 
 ::selection {
     color: #e0e0e0;
-    background: rgba(255, 105, 0, .35);
+    background: rgba(255, 105, 0, .3);
 }
 
 #rin-bg {
@@ -24,7 +24,7 @@ body {
     background-attachment: fixed;
     background-position: 50% 50%;
     background-color: #818181;
-    background-image: url('../../assets/images/background.png');
+    background-image: url('../../assets/images/background.jpg');
     filter: blur(5px);
 }
 
@@ -50,7 +50,7 @@ body {
 #rin-footer div {
     font-size: 14px;
     text-align: center;
-    color: rgba(255, 255, 255, .79);
+    color: rgba(255, 255, 255, .6);
 }
 
 #rin-footer div a {
