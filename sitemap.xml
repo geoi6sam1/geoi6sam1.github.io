@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
@@ -24,12 +20,32 @@
 <url>
   <loc>https://geoi6sam1.github.io/pages/tips.html</loc>
   <lastmod>2002-01-29T13:14:52+00:00</lastmod>
-  <priority>0.50</priority>
+  <priority>0.75</priority>
 </url>
 <url>
   <loc>https://geoi6sam1.github.io/pages/links.html</loc>
   <lastmod>2002-01-29T13:14:52+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://github.com./geoi6sam1</loc>
+  <lastmod>2002-01-29T13:14:52+00:00</lastmod>
   <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://gitee.com./geoi6sam1</loc>
+  <lastmod>2002-01-29T13:14:52+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://www.cnblogs.com/geoi6sam1</loc>
+  <lastmod>2002-01-29T13:14:52+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://bbs.tampermonkey.net.cn/?27974</loc>
+  <lastmod>2002-01-29T13:14:52+00:00</lastmod>
+  <priority>0.25</priority>
 </url>
 
 </urlset>
