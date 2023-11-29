@@ -21,7 +21,7 @@
 }
 
 .rin-left {
-    padding: 20px 25px;
+    padding: 20px 20px;
     text-align: center;
     margin: 0 auto;
 }
@@ -33,13 +33,13 @@
 }
 
 .rin-left-title2 {
-    font-size: 15px;
+    font-size: 16px;
     color: white;
     margin-bottom: 10px;
 }
 
 .rin-left-slogan {
-    font-size: 13px;
+    font-size: 12px;
     color: white;
     padding-bottom: 5px;
 }
@@ -230,13 +230,13 @@
 }
 
 .rin-post-title {
-    color: white;
+    color: #f5f5f5;
     font-size: 18px;
 }
 
 .rin-post-content {
     padding-top: 10px;
-    color: white;
+    color: #f5f5f5;
     font-size: 14px;
 }
 
@@ -248,7 +248,7 @@
 
 .rin-post-more {
     text-decoration: none;
-    color: white;
+    color: #f5f5f5;
     font-size: 13px;
     margin-left: 5px;
 }
