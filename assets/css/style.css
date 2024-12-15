@@ -246,7 +246,7 @@ header {
     background-attachment: fixed;
     background-position: 50% 50%;
     background-color: rgba(33, 33, 33, .9);
-    background-image: url(https://roam.mixcm.com/api/wall/bing);
+    background-image: url(../images/black.png);
     filter: blur(0.1rem);
 }
 
