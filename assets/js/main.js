@@ -14,7 +14,7 @@ var myDate = new Date(),
     getYear = myDate.getFullYear()
     , copyright = document.querySelector("footer .copyright")
     , webName = document.querySelector("nav .navbar-brand").innerHTML
-copyright.innerHTML = `&copy; ${getYear} ${webName}.`
+copyright.innerHTML = `&copy; ${getYear} ${webName}`
 
 function isBackToTop() {
     var deviceHeight
